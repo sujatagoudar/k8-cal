@@ -243,3 +243,137 @@ kubectl get pods --show--labels
 kubectl get pods --show-labels
 kubectl delete -f pod7.yml 
 kubectl get pods
+dh -h
+df -h
+sudo mount -t nfs4 -o nfsvers=4.1,rsize=1048576,wsize=1048576,hard,timeo=600,retrans=2,noresvport fs-07635872d999dde42.efs.us-west-1.amazonaws.com:/ efs
+ls
+cd /opt/
+ls
+cd containerd/
+ls
+cd lib/
+ls
+cd 
+ls
+vi configmap.yml 
+cd jenkins/
+ls
+vi basic_pod.yml
+mv basic_pod.yml ../
+ls
+cd
+ls
+kubectl apply -f basic_pod.yml 
+kubectl get pods
+kubectl get pods -owide
+kubectl delete pods --all
+kubectl delete rs --all
+kubectl delete endpoints --all
+kubectl apply -f basic_pod.yml 
+kubectl get pods -owide
+kubectl get nodes
+kubectl get pods -owide
+vi basic_pod.yml 
+kubectl apply -f basic_pod.yml 
+kubectl get pods -owide
+kubectl apply -f basic_pod.yml y
+kubectl apply -f basic_pod.yml 
+kubectl get pods 
+kubectl delete --all
+kubectl delete pods -all
+kubectl delete pods 
+kubectl delete pods --all
+ls
+df -h
+vi basic_pod.yml 
+kubectl apply -f basic_pod.yml 
+kubectl get pods 
+kubectl delete pods --all
+kubectl get pods 
+kubectl get pods -n dev-name space
+kubectl get pods -n dev-namespace
+kubectl delete tomcat --all
+kubectl delete ns -aal
+kubectl delete ns -all
+kubectl delete namespace
+kubectl delete namespace --all
+kubectl delete pods -n dev-namespace--all
+kubectl delete pods -n dev-namespace --all
+vi basic_pod.yml 
+kubectl apply -f basic_pod.yml 
+kubectl get pods -n dev-namespace
+kubectl get pods 
+vi basic_pod.yml 
+kubectl apply -f basic_pod.yml 
+kubectl delete pods -n dev-namespace --all
+kubectl apply -f basic_pod.yml 
+kubectl get pods
+kubectl delete pods --all
+kubectl apply -f basic_pod.yml 
+kubectl get pods
+vi basic_pod.yml 
+ls
+cat configmap.yml 
+kubectl apply -f configmap.yml 
+kubectl get pods
+kubectl get configmap
+clear
+kubectl apply -f configmap.yml 
+kubectl get configmap
+cat configmap.yml 
+clear
+vi configmap.yml 
+kubectl apply -f configmap.yml 
+kubectl get configmap
+cat configmap.yml 
+kubectl apply -f basic_pod.yml 
+kubectl delete pods jenkins/
+kubectl get pods
+kubectl delete pods jenkins
+kubectl apply -f basic_pod.yml 
+kubectl get pods
+kubectl get pods -owide
+kubectl delete pods jenkins
+kubectl apply -f myfirstpod.yml 
+kubectl apply -f myfirstpod.yml -n dev-namespace
+kubectl apply -f namespace.yml 
+kubectl apply -f myfirstpod.yml 
+kubectl get pods
+kubectl get pods -n dev-namespace
+kubectl apply -f basic_pod.yml 
+kubectl get pods
+vi basic_pod.yml 
+kubectl apply -f basic_pod.yml 
+kubectl get pods
+vi pod-config.yml
+kubectl apply -f pod-config.yml 
+kubectl get pods
+kubectl delete pods jenkins 
+kubectl get pods
+kubectl get pods -owide
+ls
+kubectl apply -f pod-config.yml 
+kubectl get pods
+kubectl get pods -owide
+kubectl get config
+kubectl get configmap
+ls
+kubectl apply -f pod-config.yml 
+kubectl get pods
+kubectl get pods -owide
+kubectl get configmap
+cat pod-config.yml 
+ls
+kubectl apply -f configmap.yml 
+kubectl get configmap
+kubectl get pods
+kubectl get pods -owide
+kubectl apply -f basic_pod.yml 
+kubectl get pods
+kubectl delete pods jenkins
+vi deployment.yml 
+git init
+git add .
+git commit -m "add all k8file"
+git remote add origin https://github.com/sujatagoudar/k8-cal.git
+git push origin master
