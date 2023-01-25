@@ -1,0 +1,8 @@
+piVersion: v1
+kind: ResourceQuota
+metadata:
+  name: podlimit
+  namespace: dev-namespace
+spec:
+  hard:
+    pods: "2"

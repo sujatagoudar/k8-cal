@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: DaemonSet
+metadata:
+  name: tomcat
+  namespace: dev-namespace
+spec:
+  selector:
+    matchLabels:
+      app: tomcat
+  template:
+    metadata:
+      name: tomcat-jenkins
+      labels:
+        app: tomcat
+    spec:
+      nodeSelector:
+        size: large 
+      containers:
+      - name: mytomcat
+        image: sujatagoudar/mytomcat:latest
